@@ -1,0 +1,14 @@
+<!--jobfooters/HTMLDave BEGIN-->
+          <TABLE width="100%%">
+            <TR>
+              <TD>
+                <IMG ALIGN=LEFT SRC="delllogotag.gif" ALT="Dell logo">
+              </TD>
+              <TD class=footer>
+                Output at %TIMENOW  on %DATENOW
+              </TD>
+            </TR>
+          </TABLE>
+  </BODY>
+</HTML>
+<!--jobfooters/HTMLDave END-->
