@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--jobheaders/HTMLDave_113 BEGIN-->
+<HTML>
+  <HEAD>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta itemprop="image" content="/images/google_favicon_128.png" />
+  <title>NetVault Report - %TITLE</title>
+
+  <link rel="stylesheet" type="text/css" href="/qui/css/qui-kendo.css">
+  <link rel="stylesheet" type="text/css" href="/qui/css/qui.css">
+  <link rel="stylesheet" type="text/css" href="/css/nvcommon.css">
+  <link rel="stylesheet" type="text/css" href="/css/template.css">
+  <link rel="stylesheet" type="text/css" href="/css/wizard-common.css">
+  <link rel="stylesheet" type="text/css" href="/css/jquery.toastmessage.css">
+  <link rel="stylesheet" type="text/css" href="/css/reports.css">
+  <link rel="stylesheet" type="text/css" href="/css/bargraph.css">
+  <link rel="stylesheet" type="text/css" href="/css/piechart.css">
+  <link rel="stylesheet" type="text/css" href="/css/branding.css">
+
+  <script src="/qui/js/qui.js"></script>
+  <script src="/js/jquery.storage.js"></script>
+  <script src="/js/jquery.toastmessage.js"></script>
+  <script src="/js/jquery-ui.js"></script>
+  <script src="/js/branding.js"></script>
+  <script src="/js/nvcommon.js"></script>
+  <script src="/js/quitemplatepage.js"></script>
+  <script src="/js/d3.v3.min.js"></script>
+  <script src="/js/bargraph.js"></script>
+  <script src="/js/piechart.js"></script>
+  <script src="/js/reporting.js"></script>
+  <script src="/js/jobheader.js"></script>
+
+	<style type="text/css" media="print">
+  	@media screen
+    {
+        .noprint{}
+        .noScreen{display:none !important;}
+    }
+
+    @media print
+    {
+      .noprint, .noprint *
+      {
+          display: none !important;
+      }
+    	.noScreen{
+    		display:block !important;
+    		border-bottom:2px solid #fb4e14 !important;
+    	}
+    }
+  </style>
+
+  <script>
+    function setVendorLogo()
+    {
+       document.getElementsByClassName("vendorHandle")[0].innerHTML = '<a href="' + gVendorLogoUrl + '" title="' + gVendorLogoTitle + '" target=\"_blank\"><img src="' + gVendorLogo + '"></a>';
+       document.getElementsByClassName("productLogoHandle")[0].innerHTML = '<img class="product-logo" src="/images/AboutName.png" />';
+    }
+  </script>
+
+  <!-- START Email Formatting -->
+  <style type="text/css" MEDIA="screen">
+    BODY {font-family:sans-serif ; background-color:white ; color:black}
+    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:darksalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
+    .comptitle {font-size:medium ; font-weight:bold ; text-align:center}
+    .footer {font-size:xx-small ; vertical-align:bottom ; text-align:right}
+    .outlinetable {width:"100%" ; border-width:1px}
+    .comptable {border-style:solid none solid solid ; border-width:1px ; border-color:black}
+    .comptable TD {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid dashed none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TR {border-style:solid ; border-width:2px ; border-color:black}
+    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+    .avgtable TR {border-style:solid ; border-width:2px ; border-color:black}
+    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .avgtable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+  </style>
+  <style type="text/css" MEDIA="print">
+    BODY {font-family:sans-serif ; background-color:white ; color:black}
+    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:darksalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
+    .comptitle {font-size:medium ; font-weight:bold ; text-align:center}
+    .footer {font-size:xx-small ; vertical-align:bottom ; text-align:right}
+    .outlinetable {width:"100%" ; border-width:1px}
+    .comptable {border-style:solid none solid solid ; border-width:1px ; border-color:black}
+    .comptable TD {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid dashed none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TR {border-style:solid ; border-width:2px ; border-color:black}
+    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+    .avgtable TR {border-style:solid ; border-width:2px ; border-color:black}
+    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .avgtable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
+  </style>
+  <!-- END Email Formatting -->
+  </HEAD>
+
+  <body class="qui" dir="ltr" onload="setVendorLogo()">
+    <br>
+    <div id="navbar" class="left-nav noprint"></div>
+    <div class="contentarea">
+      <div class="noScreen">
+  	    <div style="padding-bottom:10px;">
+  	      <span class="vendorHandle" style="display: inline-block; border-right: 2px solid #eee; padding-right:20px;"></span>
+  	      <span class="productLogoHandle" style="display: inline-block;padding-left:10px;"></span>
+  		  </div>
+      </div>
+      <div class='component-save noprint' onclick='saveSettings()'>
+        <span class='icon icon-file'></span>&nbsp;<span id="save-report"></span>
+      </div>
+      <div class='component-save noprint' onclick='ExportToPDF()'>
+        <span class='icon icon-download'></span>&nbsp;<span id="export-report"></span>
+      </div>
+      <TABLE class=outlinetable cellspacing=0>
+        <TR>
+          <TD class=jobtitle>
+            NetVault %SERVERVERSION  Server "%SERVERNAME " - Report "%TITLE"
+          </TD>
+        </TR>
+        <TR>
+          <TD style="padding-top:0.5cm" ALIGN=center>
+        </TR>
+      </TABLE>
+<!--jobheaders/HTMLDave_113 END-->

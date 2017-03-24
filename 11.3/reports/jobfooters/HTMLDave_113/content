@@ -1,0 +1,15 @@
+<!--jobfooters/HTMLDave_113 BEGIN-->
+          <span>&nbsp;<br>&nbsp;</span>
+          <TABLE width="100%%" class="noDisplay" style="border-top:2px solid #fb4e14; padding-top: 5px;">
+            <TR style="padding-top:5px">
+							<TD>
+                <IMG ALIGN=LEFT SRC="reportlogo.png">
+              </TD>
+              <TD class=footer>
+                Output at %TIMENOW  on %DATENOW
+              </TD>
+            </TR>
+          </TABLE>
+  </BODY>
+</HTML>
+<!--jobfooters/HTMLDave_113 END-->

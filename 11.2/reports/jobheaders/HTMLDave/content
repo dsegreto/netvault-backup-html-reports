@@ -36,7 +36,7 @@
     </style>
    <META http-equiv="Content-Type" content="text/html; charset=3Dutf-8">
     <TITLE>
-      NetVault Report - Server Daily Summary
+      NetVault Report - %TITLE
     </TITLE>
   </HEAD>
 
@@ -44,7 +44,7 @@
     <TABLE class=outlinetable cellspacing=0>
       <TR>
         <TD class=jobtitle>
-          NetVault 11.20 Server "hw-netvault01" - Report "Server Daily Summary"
+          NetVault %SERVERVERSION  Server "%SERVERNAME " - Report "%TITLE"
         </TD>
       </TR>
       <TR>
