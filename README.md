@@ -9,7 +9,7 @@ Here are the instructions for both Netvault 11.2 and Netvault 11.3.
 As far as I have seen, restarting the Netvault Server service is not necessary.<br>
 Every change I have made during test has applied at the next report, or sometimes within a report if one was running at the time.
 
-Netvault 11.2:<br>
+<b>Netvault 11.2:</b><br>
 * Start as a priviledged user on the Netvault Backup machine.<br>
    My instructions are for Linux, but doing this in Windows should not be any different.
 * Backup or make a copy of these folders for safety:<br>
@@ -29,7 +29,7 @@ Netvault 11.2:<br>
    Set it to: HTMLDave
 * Test it with a new report.
 
-Netvault 11.3<br>
+<b>Netvault 11.3</b><br>
 * Start as a priviledged user on the Netvault Backup machine.<br>
    My instructions are for Linux, but doing this in Windows should not be any different.
 * Backup or make a copy of these folders for safety:<br>
