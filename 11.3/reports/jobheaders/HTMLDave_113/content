@@ -61,34 +61,34 @@
   <!-- START Email Formatting -->
   <style type="text/css" MEDIA="screen">
     BODY {font-family:sans-serif ; background-color:white ; color:black}
-    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:darksalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
+    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:lightsalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
     .comptitle {font-size:medium ; font-weight:bold ; text-align:center}
     .footer {font-size:xx-small ; vertical-align:bottom ; text-align:right}
     .outlinetable {width:"100%" ; border-width:1px}
     .comptable {border-style:solid none solid solid ; border-width:1px ; border-color:black}
     .comptable TD {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid dashed none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
-    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .tottable TR {border-style:solid ; border-width:2px ; border-color:black}
-    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .tottable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
     .avgtable TR {border-style:solid ; border-width:2px ; border-color:black}
-    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .avgtable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
   </style>
   <style type="text/css" MEDIA="print">
     BODY {font-family:sans-serif ; background-color:white ; color:black}
-    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:darksalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
+    .jobtitle {font-size:medium ; font-weight:bold ; text-align:center ; background-color:lightsalmon; color:black ; border-top:thin black solid ; border-bottom:thin black solid ; width:"100%"}
     .comptitle {font-size:medium ; font-weight:bold ; text-align:center}
     .footer {font-size:xx-small ; vertical-align:bottom ; text-align:right}
     .outlinetable {width:"100%" ; border-width:1px}
     .comptable {border-style:solid none solid solid ; border-width:1px ; border-color:black}
     .comptable TD {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid dashed none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
-    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .comptable TH {font-size:x-small ; border-width:0px 1px 1px 0px ; border-style:none solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .tottable TR {border-style:solid ; border-width:2px ; border-color:black}
-    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .tottable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .tottable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
     .avgtable TR {border-style:solid ; border-width:2px ; border-color:black}
-    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:darksalmon; color:black}
+    .avgtable TH {font-size:x-small ; border-width:1px 1px 1px 0px ; border-style:solid solid solid none ; border-color:black ; background-color:lightsalmon; color:black}
     .avgtable TD {font-size:x-small ; font-weight:bold ; border-width:0px 1px 1px 0px ; border-style:none solid none none ; border-color:#000000 black #bbbbbb #000000 ; padding:3px ; background-color:#f6f6f6 ; color:black}
   </style>
   <!-- END Email Formatting -->
